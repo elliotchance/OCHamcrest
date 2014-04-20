@@ -8,7 +8,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <OCHamcrest/HCDescription.h>
+#import "HCDescription.h"
 
 
 /**

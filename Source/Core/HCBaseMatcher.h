@@ -8,7 +8,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <OCHamcrest/HCMatcher.h>
+#import "HCMatcher.h"
 
 
 /**

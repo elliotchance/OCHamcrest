@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '5.0'
   s.osx.deployment_target = '10.7'
-  s.source = { :git => 'https://github.com/elliotchance/OCHamcrestExtensions.git', :tag => 'v1.0' }
+  s.source = { :git => 'https://github.com/elliotchance/OCHamcrestExtensions.git', :tag => 'ev1.0.0' }
   s.source_files = 'Source/OCHamcrest.h', 'Source/Core/**/*.{h,m}', 'Source/Library/**/*.{h,m}'
   s.private_header_files = 'Source/Core/HCGenericTestFailureHandler.h', 'Source/Core/HCSenTestFailureHandler.h' 'Source/Core/HCXCTestFailureHandler.h'
   s.requires_arc = true
