@@ -1,6 +1,8 @@
 What is OCHamcrestExtensions?
 -----------------------------
 
+[![Build Status](https://travis-ci.org/elliotchance/OCHamcrestExtensions.svg?branch=master)](https://travis-ci.org/elliotchance/OCHamcrestExtensions)
+
 OCHamcrestExtensions is built on top of [OCHamcrest](https://github.com/hamcrest/OCHamcrest). It adds several more features, including:
 
 * Support for exception assertions.
@@ -42,10 +44,6 @@ OCHamcrest comes with a library of useful matchers. This list contains only the 
   * `assertNo` - convienience method for `assertThatBool(x, equalToBool(NO))`
   * `assertTrue` - same as `assertYes`
   * `assertFalse` - same as `assertNo`
-
-* Collection
-
-  * `lacksKey` - match if a key does not exist in a collection
   
 * Exception
 
