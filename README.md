@@ -45,6 +45,10 @@ OCHamcrest comes with a library of useful matchers. This list contains only the 
   * `assertTrue` - same as `assertYes`
   * `assertFalse` - same as `assertNo`
   
+* Text
+
+  * `emptyString` - match an empty string
+  
 * Exception
 
   * `ignoringReturnValue` - used to wrap expressions of non-`id` return type
