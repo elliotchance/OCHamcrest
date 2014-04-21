@@ -9,7 +9,7 @@
 
     // Class under test
 #define HC_SHORTHAND
-#import <OCHamcrest/HCIsNil.h>
+#import "HCIsNil.h"
 
     // Test support
 #import "AbstractMatcherTest.h"

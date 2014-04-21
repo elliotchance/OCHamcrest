@@ -7,12 +7,12 @@
 
     // Class under test
 #define HC_SHORTHAND
-#import <OCHamcrest/HCHasProperty.h>
+#import "HCHasProperty.h"
 
     // Collaborators
-#import <OCHamcrest/HCIsEqual.h>
-#import <OCHamcrest/HCIsEqualToNumber.h>
-#import <OCHamcrest/HCIsNil.h>
+#import "HCIsEqual.h"
+#import "HCIsEqualToNumber.h"
+#import "HCIsNil.h"
 
     // Test support
 #import "AbstractMatcherTest.h"

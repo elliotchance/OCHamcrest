@@ -9,7 +9,7 @@
 
     // Class under test
 #define HC_SHORTHAND
-#import <OCHamcrest/HCIsEqualIgnoringWhiteSpace.h>
+#import "HCIsEqualIgnoringWhiteSpace.h"
 
     // Test support
 #import "AbstractMatcherTest.h"

@@ -8,10 +8,10 @@
 //
 
     // Class under test
-#import <OCHamcrest/HCStringDescription.h>
+#import "HCStringDescription.h"
 
     // Collaborators
-#import <OCHamcrest/HCSelfDescribing.h>
+#import "HCSelfDescribing.h"
 
     // Test support
 #import <SenTestingKit/SenTestingKit.h>

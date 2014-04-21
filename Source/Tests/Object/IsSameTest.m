@@ -9,12 +9,12 @@
 
     // Class under test
 #define HC_SHORTHAND
-#import <OCHamcrest/HCIsSame.h>
+#import "HCIsSame.h"
 
     // Collaborators
-#import <OCHamcrest/HCAssertThat.h>
-#import <OCHamcrest/HCIsNot.h>
-#import <OCHamcrest/HCStringDescription.h>
+#import "HCAssertThat.h"
+#import "HCIsNot.h"
+#import "HCStringDescription.h"
 
     // Test support
 #import "AbstractMatcherTest.h"

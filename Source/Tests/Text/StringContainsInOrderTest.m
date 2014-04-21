@@ -9,7 +9,7 @@
 
     // Class under test
 #define HC_SHORTHAND
-#import <OCHamcrest/HCStringContainsInOrder.h>
+#import "HCStringContainsInOrder.h"
 
     // Test support
 #import "AbstractMatcherTest.h"

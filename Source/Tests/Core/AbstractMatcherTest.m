@@ -9,8 +9,8 @@
 
 #import "AbstractMatcherTest.h"
 
-#import <OCHamcrest/HCMatcher.h>
-#import <OCHamcrest/HCStringDescription.h>
+#import "HCMatcher.h"
+#import "HCStringDescription.h"
 
 
 @implementation AbstractMatcherTest

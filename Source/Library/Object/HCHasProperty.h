@@ -5,7 +5,7 @@
 //  Created by: Justin Shacklette
 //
 
-#import <OCHamcrest/HCBaseMatcher.h>
+#import "HCBaseMatcher.h"
 
 
 @interface HCHasProperty : HCBaseMatcher

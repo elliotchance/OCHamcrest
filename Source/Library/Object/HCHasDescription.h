@@ -7,7 +7,7 @@
 //  Source: https://github.com/hamcrest/OCHamcrest
 //
 
-#import <OCHamcrest/HCInvocationMatcher.h>
+#import "HCInvocationMatcher.h"
 
 
 @interface HCHasDescription : HCInvocationMatcher

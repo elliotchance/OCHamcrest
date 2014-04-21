@@ -7,7 +7,7 @@
 //  Source: https://github.com/hamcrest/OCHamcrest
 //
 
-#import <OCHamcrest/HCSubstringMatcher.h>
+#import "HCSubstringMatcher.h"
 
 
 @interface HCStringEndsWith : HCSubstringMatcher

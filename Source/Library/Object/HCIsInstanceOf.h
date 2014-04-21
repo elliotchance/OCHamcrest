@@ -7,7 +7,7 @@
 //  Source: https://github.com/hamcrest/OCHamcrest
 //
 
-#import <OCHamcrest/HCClassMatcher.h>
+#import "HCClassMatcher.h"
 
 
 @interface HCIsInstanceOf : HCClassMatcher

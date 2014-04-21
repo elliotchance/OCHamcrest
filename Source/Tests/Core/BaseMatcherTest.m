@@ -8,7 +8,7 @@
 //
 
     // Class under test
-#import <OCHamcrest/HCBaseMatcher.h>
+#import "HCBaseMatcher.h"
 
     // Test support
 #import "AbstractMatcherTest.h"

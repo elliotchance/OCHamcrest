@@ -9,7 +9,7 @@
 
     // Class under test
 #define HC_SHORTHAND
-#import <OCHamcrest/HCIsEqualIgnoringCase.h>
+#import "HCIsEqualIgnoringCase.h"
 
     // Test support
 #import "AbstractMatcherTest.h"

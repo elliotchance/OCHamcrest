@@ -9,7 +9,7 @@
 
     // Module under test
 #define HC_SHORTHAND
-#import <OCHamcrest/HCIsEqualToNumber.h>
+#import "HCIsEqualToNumber.h"
 
     // Test support
 #import "AbstractMatcherTest.h"

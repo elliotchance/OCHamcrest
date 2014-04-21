@@ -9,10 +9,10 @@
 
     // Class under test
 #define HC_SHORTHAND
-#import <OCHamcrest/HCAnyOf.h>
+#import "HCAnyOf.h"
 
     // Collaborators
-#import <OCHamcrest/HCIsEqual.h>
+#import "HCIsEqual.h"
 
     // Test support
 #import "AbstractMatcherTest.h"

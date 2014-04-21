@@ -9,7 +9,7 @@
 
     // Class under test
 #define HC_SHORTHAND
-#import <OCHamcrest/HCStringStartsWith.h>
+#import "HCStringStartsWith.h"
 
     // Test support
 #import "AbstractMatcherTest.h"

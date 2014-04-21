@@ -7,7 +7,7 @@
 //  Source: https://github.com/hamcrest/OCHamcrest
 //
 
-#import <OCHamcrest/HCHasCount.h>
+#import "HCHasCount.h"
 
 
 @interface HCIsEmptyCollection : HCHasCount

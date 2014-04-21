@@ -1,4 +1,4 @@
-#import <OCHamcrest/HCBaseMatcher.h>
+#import "HCBaseMatcher.h"
 
 
 @interface HCEmptyString : HCBaseMatcher

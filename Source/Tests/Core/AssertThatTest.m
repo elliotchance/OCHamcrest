@@ -9,11 +9,11 @@
 
     // Module under test
 #define HC_SHORTHAND
-#import <OCHamcrest/HCAssertThat.h>
+#import "HCAssertThat.h"
 
     // Collaborators
-#import <OCHamcrest/HCIsEqual.h>
-#import <OCHamcrest/HCStringContains.h>
+#import "HCIsEqual.h"
+#import "HCStringContains.h"
 
     // Test support
 #import <SenTestingKit/SenTestingKit.h>

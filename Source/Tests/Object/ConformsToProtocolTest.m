@@ -7,7 +7,7 @@
 
     // Class under test
 #define HC_SHORTHAND
-#import <OCHamcrest/HCConformsToProtocol.h>
+#import "HCConformsToProtocol.h"
 
     // Test support
 #import "AbstractMatcherTest.h"

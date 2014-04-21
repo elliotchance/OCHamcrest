@@ -20,14 +20,14 @@
  
  @ingroup library
  */
-#import <OCHamcrest/HCConformsToProtocol.h>
-#import <OCHamcrest/HCHasDescription.h>
-#import <OCHamcrest/HCHasProperty.h>
-#import <OCHamcrest/HCIsEqual.h>
-#import <OCHamcrest/HCIsInstanceOf.h>
-#import <OCHamcrest/HCIsNil.h>
-#import <OCHamcrest/HCIsSame.h>
-#import <OCHamcrest/HCIsTypeOf.h>
+#import "HCConformsToProtocol.h"
+#import "HCHasDescription.h"
+#import "HCHasProperty.h"
+#import "HCIsEqual.h"
+#import "HCIsInstanceOf.h"
+#import "HCIsNil.h"
+#import "HCIsSame.h"
+#import "HCIsTypeOf.h"
 
 /**
  @defgroup collection_matchers Collection Matchers
@@ -36,17 +36,17 @@
  
  @ingroup library
  */
-#import <OCHamcrest/HCHasCount.h>
-#import <OCHamcrest/HCIsCollectionContaining.h>
-#import <OCHamcrest/HCIsCollectionContainingInAnyOrder.h>
-#import <OCHamcrest/HCIsCollectionContainingInOrder.h>
-#import <OCHamcrest/HCIsCollectionOnlyContaining.h>
-#import <OCHamcrest/HCIsDictionaryContaining.h>
-#import <OCHamcrest/HCIsDictionaryContainingEntries.h>
-#import <OCHamcrest/HCIsDictionaryContainingKey.h>
-#import <OCHamcrest/HCIsDictionaryContainingValue.h>
-#import <OCHamcrest/HCIsEmptyCollection.h>
-#import <OCHamcrest/HCIsIn.h>
+#import "HCHasCount.h"
+#import "HCIsCollectionContaining.h"
+#import "HCIsCollectionContainingInAnyOrder.h"
+#import "HCIsCollectionContainingInOrder.h"
+#import "HCIsCollectionOnlyContaining.h"
+#import "HCIsDictionaryContaining.h"
+#import "HCIsDictionaryContainingEntries.h"
+#import "HCIsDictionaryContainingKey.h"
+#import "HCIsDictionaryContainingValue.h"
+#import "HCIsEmptyCollection.h"
+#import "HCIsIn.h"
 
 /**
  @defgroup number_matchers Number Matchers
@@ -55,8 +55,8 @@
  
  @ingroup library
  */
-#import <OCHamcrest/HCIsCloseTo.h>
-#import <OCHamcrest/HCOrderingComparison.h>
+#import "HCIsCloseTo.h"
+#import "HCOrderingComparison.h"
 
 /**
  @defgroup primitive_number_matchers Primitive Number Matchers
@@ -65,7 +65,7 @@
  
  @ingroup number_matchers
  */
-#import <OCHamcrest/HCIsEqualToNumber.h>
+#import "HCIsEqualToNumber.h"
 
 /**
  @defgroup text_matchers Text Matchers
@@ -74,12 +74,12 @@
  
  @ingroup library
  */
-#import <OCHamcrest/HCIsEqualIgnoringCase.h>
-#import <OCHamcrest/HCIsEqualIgnoringWhiteSpace.h>
-#import <OCHamcrest/HCStringContains.h>
-#import <OCHamcrest/HCStringContainsInOrder.h>
-#import <OCHamcrest/HCStringEndsWith.h>
-#import <OCHamcrest/HCStringStartsWith.h>
+#import "HCIsEqualIgnoringCase.h"
+#import "HCIsEqualIgnoringWhiteSpace.h"
+#import "HCStringContains.h"
+#import "HCStringContainsInOrder.h"
+#import "HCStringEndsWith.h"
+#import "HCStringStartsWith.h"
 
 /**
  @defgroup logical_matchers Logical Matchers
@@ -88,10 +88,10 @@
  
  @ingroup library
  */
-#import <OCHamcrest/HCAllOf.h>
-#import <OCHamcrest/HCAnyOf.h>
-#import <OCHamcrest/HCIsAnything.h>
-#import <OCHamcrest/HCIsNot.h>
+#import "HCAllOf.h"
+#import "HCAnyOf.h"
+#import "HCIsAnything.h"
+#import "HCIsNot.h"
 
 /**
  @defgroup decorator_matchers Decorator Matchers
@@ -100,16 +100,16 @@
  
  @ingroup library
  */
-#import <OCHamcrest/HCDescribedAs.h>
-#import <OCHamcrest/HCIs.h>
+#import "HCDescribedAs.h"
+#import "HCIs.h"
 
 /**
  @defgroup integration Unit Test Integration
  */
-#import <OCHamcrest/HCAssertThat.h>
-#import <OCHamcrest/HCTestFailure.h>
-#import <OCHamcrest/HCTestFailureHandler.h>
-#import <OCHamcrest/HCTestFailureHandlerChain.h>
+#import "HCAssertThat.h"
+#import "HCTestFailure.h"
+#import "HCTestFailureHandler.h"
+#import "HCTestFailureHandlerChain.h"
 
 /**
  @defgroup integration_numeric Unit Tests of Primitive Numbers
@@ -126,7 +126,7 @@
  
  @ingroup integration
  */
-#import <OCHamcrest/HCNumberAssert.h>
+#import "HCNumberAssert.h"
 
 /**
  @defgroup boolean_matchers Boolean Matchers
