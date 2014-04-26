@@ -14,6 +14,16 @@
  */
 
 /**
+ @defgroup exception_matchers Exception Matchers
+ 
+ Matchers that handle exceptions.
+ 
+ @ingroup library
+ */
+#import "HCDidThrowException.h"
+#import "HCThrowsException.h"
+
+/**
  @defgroup object_matchers Object Matchers
  
  Matchers that inspect objects.
