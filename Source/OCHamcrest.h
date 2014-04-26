@@ -21,6 +21,7 @@
  @ingroup library
  */
 #import "HCDidThrowException.h"
+#import "HCThrowsException.h"
 
 /**
  @defgroup object_matchers Object Matchers
